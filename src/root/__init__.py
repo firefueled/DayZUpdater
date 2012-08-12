@@ -122,7 +122,7 @@ print('unziped')
 
 print('running updater')
 
-#os.eexecl(download_path + 'unzip\\' +  file_name[:-3] + 'exe')
+os.system(download_path + 'unzip\\' +  file_name[:-3] + 'exe')
 
 
 
